@@ -57,6 +57,7 @@ header .nav-item{
     padding: .9em;
 }
 
+
 header .navbar-brand{
     padding-left: 8rem;
     font-size: 3em;
@@ -71,13 +72,16 @@ header span{
     font-size: 1.4em;
 }
 
+header .nav-link{
+    text-transform: uppercase;
+}
+
 header .nav-link:hover{
     color: rgb(252, 130, 130);
 }
 
 header .row .col-md-12{
-    padding: 22vmin 1vmin;
-    padding-bottom: 35vmin;
+    padding: 22vmin;
 }
 
 header .row .col-md-12 h1{
@@ -94,6 +98,11 @@ header .container .row .col-md-12 button{
     font-size: 13px;
     font-weight: bolder;
     background-color: rgba(255, 52, 38, 0.404);
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+    cursor: pointer;
 }
 
 .section-1{
