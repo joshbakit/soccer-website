@@ -26,10 +26,10 @@
                         <a class="nav-link active" aria-current="page" href="#">home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
+                        <a class="nav-link" href="#mvp">mvp</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">gallery</a>
+                        <a class="nav-link" href="#game-schedule">schedule</a>
                       </li>
                       <li class="nav-item dropdown">
                           <div class="dropdown">
@@ -41,10 +41,10 @@
                           </div>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">buy ticket</a>
+                        <a class="nav-link" href="#all-teams">teams</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">shop</a>
+                        <a class="nav-link" href="#download-app">download</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">contact</a>
@@ -74,7 +74,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="player">
+                        <div class="player" id="mvp">
                             <img src="/assets/img/soccer-player.jpg" alt="soccer-player-img">
                         </div>
                     </div>
@@ -102,14 +102,14 @@
     </main>
 
     <section class="section-2 container-fluid p-0">
-        <div class="cover">
+        <div class="cover" id="game-schedule">
             <div class="content text-center">
                 <h1>Game Schedule</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div> 
         <div class="container-fluid text-center">
-            <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+            <div class="numbers d-flex flex-md-row flex-wrap flex-md-nowrap justify-content-center">
                 <div class="rect">
                     <h1>BRA  <span>vs</span>  NGR</h1>
                     <p>Lorem, ipsum dolor.</p>
@@ -133,17 +133,19 @@
             </div>
         </div>
 
-        <div class="teams text-center">
+        <div class="teams text-center" id="all-teams">
             <h1>All Teams</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <div class="cards">
-                 <div class="d-flex flex-row justify-content-center">
+                 <div class="d-flex flex-row flex-wrap justify-content-center">
                     <div class="card">
                         <img src="/assets/img/brasil_flag.svg" class="card-img-top mx-auto my-2" alt="chealse-fc">
                         <div class="card-body">
                             <p class="card-text text-start">
-                                
-The Brazil national football team represents Brazil in men's international football and is administered by the Brazilian Football Confederation, the governing body for football in Brazil. 
+                                The Brazil national football team represents Brazil in 
+                                men's international football and is administered by the 
+                                Brazilian Football Confederation, the governing body for 
+                                football in Brazil. 
                             </p>
                             <a href="#" class="btn btn-secondary px-5 py-2">view</a>
                         </div>
@@ -152,7 +154,10 @@ The Brazil national football team represents Brazil in men's international footb
                         <img src="/assets/img/Argentina-escudo-2.svg" class="card-img-top mx-auto my-2" alt="chealse-fc">
                         <div class="card-body">
                             <p class="card-text text-start">
-                                The Argentina national football team represents Argentina in men's international football and is administered by the Argentine Football Association, the governing body for football in Argentina.
+                                The Argentina national football team represents Argentina
+                                in men's international football and is administered by the
+                                Argentine Football Association, the governing body for
+                                football in Argentina.
                             </p>
                             <a href="#" class="btn btn-secondary px-5 py-2">view</a>
                         </div>
@@ -161,7 +166,9 @@ The Brazil national football team represents Brazil in men's international footb
                         <img src="/assets/img/south-korea.svg" class="card-img-top mx-auto my-2" alt="chealse-fc">
                         <div class="card-body">
                             <p class="card-text text-start">
-                                The South Korea national football team represents South Korea in men's international football and is governed by the Korea Football Association.
+                                The South Korea national football team represents South Korea
+                                in men's international football and is governed by the Korea
+                                Football Association.
                             </p>
                             <a href="#" class="btn btn-secondary px-5 py-2">view</a>
                         </div>
@@ -170,7 +177,9 @@ The Brazil national football team represents Brazil in men's international footb
                         <img src="/assets/img/StampMexicoFlag.svg" class="card-img-top mx-auto my-2" alt="chealse-fc">
                         <div class="card-body">
                             <p class="card-text text-start">
-                                The Mexico national football team represents Mexico in international football and is governed by the Mexican Football Federation.
+                                The Mexico national football team represents Mexico in
+                                international football and is governed by the Mexican
+                                Football Federation.
                             </p>
                             <a href="#" class="btn btn-secondary px-5 py-2">view</a>
                         </div>
@@ -180,31 +189,31 @@ The Brazil national football team represents Brazil in men's international footb
         </div>
 
         <section class="section-3">
-            <div class="row text-center pt-5">
+            <div class="row text-center pt-5" id="download-app">
                 <div class="col-md-12 col-sm-12">
                     <h1>Download our APP</h1>
-                    <p>
+                    <p class="pt-5">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Explicabo porro accusamus nam expedita rerum!
                     </p>
                 </div>
-                <div class="platform row pt-5">
-                    <div class="col-md-6 col-sm-12 text-end">
+                <div class="platform row pt-sm-5 justify-content-center">
+                    <div class="col-md-6 col-sm-12">
                         <div class="desktop shadow-lg">
-                            <div class="d-flex flex-row justify-content-center">
+                            <div class="d-flex flex-row justify-content-end justify-content-sm-center">
                                 <i class="fas fa-desktop fa-4x py-2 pe-3"></i>
-                                <div class="text text-left">
+                                <div class="text text-center">
                                     <h3 class="pt-1 m-0">Desktop</h3>
                                     <p class="p-0 text-center">On Website</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 text-start">
+                    <div class="col-md-6 col-sm-12">
                         <div class="desktop shadow-lg">
-                            <div class="d-flex flex-row justify-content-center">
+                            <div class="d-flex flex-row justify-content-start justify-content-sm-center">
                                 <i class="fas fa-mobile-alt fa-4x py-2 pe-3"></i>
-                                <div class="text text-left">
+                                <div class="text text-center">
                                     <h3 class="pt-1 m-0">On Mobile</h3>
                                     <p class="p-0 text-center ">On Playstore</p>
                                 </div>
@@ -225,7 +234,7 @@ The Brazil national football team represents Brazil in men's international footb
                         Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used.
                     </p>
                     <p class="text-muted pt-3">
-                        Copyright ©2021 All Rights Reserved | Made by <span>Joshua Beñas</span> with love.
+                        Copyright ©2021 All Rights Reserved | Made by <br> <span>Joshua Beñas</span> with love.
                     </p>
                 </div>
                 <div class="col-md-5 text-start">
@@ -239,7 +248,7 @@ The Brazil national football team represents Brazil in men's international footb
                 </div>
                 <div class="col-md-2 col-sm-12 justify-content-start">
                     <h3 class="text-light">Follow Us</h3>
-                    <div class="column">
+                    <div class="column d-flex">
                         <i class="fab fa-facebook"></i>
                         <i class="fab fa-instagram"></i>
                         <i class="fab fa-youtube"></i>
